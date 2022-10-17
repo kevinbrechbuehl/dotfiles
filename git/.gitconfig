@@ -1,0 +1,9 @@
+[alias]
+  co = checkout
+  cob = checkout -b
+  l = log --oneline -n 20 --graph --abbrev-commit --decorate
+[core]
+  autocrlf = true
+[user]
+  name = Kevin Brechbühl
+  email = mail@kevinbrechbuehl.ch
