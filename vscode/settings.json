@@ -1,3 +1,6 @@
 {
-    "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons"
 }
