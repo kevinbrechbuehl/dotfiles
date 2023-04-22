@@ -9,6 +9,7 @@ Copy-Item "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps
 # Visual Studio Code
 New-Item -ItemType Directory -Force -Path ".\vscode\"
 Copy-Item "$env:APPDATA\Code\User\settings.json" -Destination ".\vscode\"
+Copy-Item "$env:APPDATA\Code\User\keybindings.json" -Destination ".\vscode\"
 code --list-extensions > ".\vscode\extensions.txt"
 
 # Windows Terminal
