@@ -1,6 +1,8 @@
 {
   "git.enableSmartCommit": true,
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Monokai Pro",
-  "workbench.iconTheme": "Monokai Pro Icons"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.startupEditor": "none"
 }
