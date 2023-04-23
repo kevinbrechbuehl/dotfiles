@@ -2,6 +2,10 @@
 New-Item -ItemType Directory -Force -Path ".\git\"
 Copy-Item "$env:USERPROFILE\.gitconfig" -Destination ".\git\"
 
+# GlazeVM
+New-Item -ItemType Directory -Force -Path ".\glaze-wm\"
+Copy-Item "$env:USERPROFILE\.glaze-wm\config.yaml" -Destination ".\glaze-wm\"
+
 # PowerShell
 New-Item -ItemType Directory -Force -Path ".\powershell\"
 Copy-Item "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Destination ".\powershell\"
