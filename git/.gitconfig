@@ -1,15 +1,16 @@
 [alias]
   co = checkout
   cob = checkout -b
+  cln = !git checkout . && git clean -fd
   l = log --oneline -n 20 --graph --abbrev-commit --decorate
-
   # List all branches which are merged into the current branch (lob = List Old Branches)
   lob = "!f(){ git branch --merged | grep -v -e 'master$' | grep -v -e 'main$' | grep -v -e 'develop$' | grep -v '*'; };f"
-  
   # Delete all branches which are merged into the current branch (dob = Delete Old Branches)
   dob = "!f(){ git branch --merged | grep -v -e 'master$' | grep -v -e 'main$' | grep -v -e 'develop$' | grep -v '*' | xargs git branch -D; };f"
 [core]
-  autocrlf = true
+  autocrlf = true # "input" for Mac/Linux
+[init]
+  defaultBranch = main
 [user]
   name = Kevin Brechbühl
   email = mail@kevinbrechbuehl.ch
