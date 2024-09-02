@@ -10,6 +10,10 @@ Copy-Item "$env:USERPROFILE\.glaze-wm\config.yaml" -Destination ".\glaze-wm\"
 New-Item -ItemType Directory -Force -Path ".\powershell\"
 Copy-Item "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Destination ".\powershell\"
 
+# Starship
+New-Item -ItemType Directory -Force -Path ".\starship\"
+Copy-Item "$env:USERPROFILE\.config\starship.toml" -Destination ".\starship\"
+
 # Visual Studio Code
 New-Item -ItemType Directory -Force -Path ".\vscode\"
 Copy-Item "$env:APPDATA\Code\User\settings.json" -Destination ".\vscode\"
