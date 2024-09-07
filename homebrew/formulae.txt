@@ -1,0 +1,12 @@
+ca-certificates
+fish
+helm
+mpdecimal
+ncurses
+openssl@3
+pcre2
+python@3.12
+readline
+sqlite
+starship
+xz
