@@ -4,4 +4,6 @@ This repository contains configurations, settings and other useful information f
 
 ## Updating configs
 
-Run `.\update.ps1` in a console to update settings.
+### Windows
+
+Run `.\windows.ps1` in a console to update settings.
