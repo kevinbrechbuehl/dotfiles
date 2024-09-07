@@ -7,3 +7,7 @@ This repository contains configurations, settings and other useful information f
 ### Windows
 
 Run `.\windows.ps1` in a console to update settings.
+
+### Mac
+
+Run `./mac.sh` in a console to update settings.
