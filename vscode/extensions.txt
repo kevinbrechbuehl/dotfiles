@@ -1,7 +1,10 @@
-Angular.ng-template
+angular.ng-template
 bradlc.vscode-tailwindcss
 dbaeumer.vscode-eslint
 eamodio.gitlens
 esbenp.prettier-vscode
+github.copilot
+github.copilot-chat
+marp-team.marp-vscode
 monokai.theme-monokai-pro-vscode
-ms-vsliveshare.vsliveshare
+nrwl.angular-console

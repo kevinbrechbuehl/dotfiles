@@ -12,6 +12,7 @@ logitech-options
 microsoft-auto-update
 microsoft-office
 microsoft-teams
+postman
 rectangle
 signal
 slack
