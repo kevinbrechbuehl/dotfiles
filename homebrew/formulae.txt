@@ -1,5 +1,6 @@
 ca-certificates
 fish
+gnu-sed
 helm
 mpdecimal
 ncurses
@@ -9,3 +10,6 @@ readline
 sqlite
 starship
 xz
+yabai
+yarn
+yq
