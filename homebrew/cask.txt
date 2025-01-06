@@ -1,9 +1,15 @@
 1password
 anytype
+appcleaner
 azure-data-studio
+contexts
+deskpad
 displaylink
 docker
-dotnet-sdk
+dotnet-sdk8
+dotnet-sdk8-0-400
+dotnet-sdk9
+dotnet-sdk9-0-100
 google-chrome
 google-cloud-sdk
 jetbrains-toolbox
